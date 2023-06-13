@@ -74,13 +74,13 @@ true
         arr: []
     };
     
-    arr.forEach(task => {
-        if (task.completed) {
+    arr.forEach(item => {
+        if (item.completed) {
             b.count++;
-            b.arr.push(task);
+            b.arr.push(item);
         } else {
             a.count++;
-            a.arr.push(task);
+            a.arr.push(item);
         }
     });
 
